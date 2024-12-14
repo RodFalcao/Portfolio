@@ -1,0 +1,74 @@
+@import url(styles/nav.css);
+@import url(styles/index.css);
+@import url(styles/utility.css);
+@import url(styles/animations.css);
+@import url(styles/mobile.css);
+@import url(styles/server.css);
+@import url(styles/linktree.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+
+    h1 {
+        font-family: "Baloo 2", sans-serif;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        font-size: 2.3rem;
+    }
+    h2 {
+        font-family: "Baloo 2", sans-serif;
+        font-weight: bolder;
+        color: #c3cedb;
+        font-size: 1.5rem;
+    }
+    h3, p {
+        font-family: "Baloo 2", sans-serif;
+        font-size: 1.2rem;
+        color: #a9b0bd;
+    }
+}
+::root {
+
+    --text-darkmode: rgb(255, 255, 255);
+    --select-nav:  rgb(234, 236, 255);
+
+    --bg-darkmode: #09090B;
+    --stroke-darkmode: #202022;
+    --btn-darkmode: #18181B;
+
+    --hilight-darkmode: #c6c6cf86;
+
+
+}
+main {
+    overflow: hidden;
+}
+#introduction {
+    height: 1000px;
+    background-image: url(assets/background/bg.png);
+    background-size: cover;
+}
+#projects {
+    background-color: rgb(26, 26, 43);
+}
+#about {
+    background-color: rgb(26, 26, 43);
+}
+#papers {
+    height: 1200px;
+    background-image: url(assets/background/bg.png);
+    background-size: cover;
+}
+.bg-blue {
+    background-image: url(assets/background/bg.png);
+    background-size: cover;
+}
+footer {
+
+    background-color: black;
+    height: 200px;
+}

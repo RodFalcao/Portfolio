@@ -1,0 +1,244 @@
+#int-text {
+    margin-top: -6rem;
+  .tag {
+    border-radius: 1rem;
+    padding: 0.3rem;
+    width: 180px;
+  }
+  span {
+    color: rgb(96, 94, 255);
+    margin-top: 0.5rem;
+  }
+  h1 span {
+    display: block;
+    animation: slideup 6s infinite;
+  }
+  h1 div {
+    display: inline-block;
+    overflow: hidden;
+    height: 3.7rem;
+    width: min-content;
+    vertical-align: bottom;
+  }
+  .contain-btn {
+    margin-top: 1rem;
+  }
+}
+.banner {
+    margin-top: -6rem;
+  animation: waving 8s infinite;
+  transition: 0.5s;
+  width: 450px;
+}
+
+#about {
+  margin-top: -1rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  height: 600px;
+  h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: -2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  img {
+    width: 300px;
+  }
+
+  .tech-langs {
+    
+    .tag2 {
+      margin: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2rem;
+      color: white;
+      background-color: rgba(59, 79, 255, 0.705);
+      border: 2px solid rgb(85, 47, 255);
+      padding: 6px 20px;
+      max-width: 150px;
+      transition: 0.2s;
+
+      img {
+        margin-right: .5rem;
+        width: 20px;
+      }
+    }
+    .tag2:hover {
+        transform: scale(1.1);
+    }
+  }
+}
+#projects {
+  margin-top: -14rem;
+  height: 700px;
+
+  .card {
+    position: relative;
+    width: 450px;
+    aspect-ratio: 16/9;
+    background-color: #20202028;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #26243a80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .card__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+
+  }
+
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #26213b1e;
+    transform: translatey(250px);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+
+  .card__title {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .card:hover svg {
+    scale: 0;
+  }
+
+  .card__description {
+    margin: 10px 0 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.4;
+  }
+}
+#papers {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+
+
+    h1 {
+        color: white;
+      }
+
+    .banner2 {
+        animation: waving2 3s infinite;
+        width: 300px;
+    }
+    .tools {
+        margin-bottom: 4rem;
+    }
+  }
+  .paper {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    width: 60%;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(24, 20, 20, 0.1);
+    backdrop-filter: blur(14.5px);
+    -webkit-backdrop-filter: blur(14.5px);
+    border: 1px solid rgba(23, 23, 92, 0.137);
+  
+    transition: 0.3s;
+    border-radius: 1rem;
+    h1 {
+      font-size: 1.3rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .container-btn {
+      button {
+          padding: 1rem;
+          --secondary-color: #fff;
+          --arrow-width: 20px;
+          --arrow-stroke: 3px;
+          box-sizing: border-box;
+          border: 0;  
+          display: flex;
+          align-items: center;
+          font-weight: bold;
+        }
+      
+        button .arrow-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        button .arrow {
+          margin-top: 1px;
+          width: var(--arrow-width);
+          height: var(--arrow-stroke);
+          position: relative;
+          transition: 0.2s;
+        }
+        button .arrow::before {
+          content: "";
+          box-sizing: border-box;
+          position: absolute;
+          border: solid var(--secondary-color);
+          border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+          display: inline-block;
+          top: -3px;
+          right: 3px;
+          transition: 0.2s;
+          padding: 3px;
+          transform: rotate(-45deg);
+        }
+  
+    }
+  }
+  .paper:hover {
+    border: 1px solid rgb(102, 102, 255);
+  
+    .container-btn {
+      
+        button .arrow {
+          background: var(--secondary-color);
+        }
+      
+        button .arrow:before {
+          right: 0;
+        }
+    }
+  }

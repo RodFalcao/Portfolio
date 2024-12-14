@@ -1,0 +1,85 @@
+.tag {
+    background-color: rgba(255, 123, 0, 0.432);
+    border-left: 2px solid rgb(255, 115, 0);
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  .btn {
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+  .btn-style1 {
+    padding: 10px 20px;
+    border: 1px solid rgba(39, 47, 119, 0.815);
+    transition: 0.3s;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    img {
+      width: 25px;
+      margin-right: 0.5rem;
+    }
+  }
+  .btn-style1:hover {
+    padding: 10px 40px;
+    color: rgb(59, 62, 255);
+  }
+  .btn-style2 {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 1rem;
+    color: black;
+    img {
+      margin-right: 0.5rem;
+      width: 30px;
+    }
+  }
+  .btn-style2:hover {
+    padding: 10px 40px;
+  }
+  .btn-style3 {
+    padding: 12px 20px;
+    border: 1px solid rgba(146, 146, 146, 0.466);
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  .btn-style3:hover {
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 8, 8);
+  }
+  .glass {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(14.5px);
+    -webkit-backdrop-filter: blur(14.5px);
+  }
+  .shadow2 {
+      height: 240px;
+      background: linear-gradient(rgba(0, 33, 66, 0) 0%,  rgb(3, 0, 63) 50%);
+    }
+  .show {
+    display: none;
+  }
+  .separador {
+    width: 80%;
+    background-color: white;
+    height: 1px;
+  }
+  .gl-gradient {
+    margin-top: -8rem;
+
+    img {
+        object-fit: cover;
+        height: 8rem;
+    }
+  }

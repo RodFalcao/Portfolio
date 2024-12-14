@@ -1,0 +1,33 @@
+#linktree {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    color: white;
+    
+    h2 {
+        color: white;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    .btn {
+        transition: 0.2s;
+        border-radius: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.007);
+        color: rgb(206, 206, 206);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 1rem;
+        width: 240px;
+        height: 60px;
+    }
+    .btn:hover {
+        border: 1px solid rgba(83, 53, 255, 0.493);
+    }
+    img {
+        margin-right: 10px;
+        width: 30px;
+    }
+
+}
