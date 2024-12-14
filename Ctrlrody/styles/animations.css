@@ -1,0 +1,60 @@
+@keyframes slideup {
+    0%, 22% { transform: translateY(0rem);}
+    33%, 55% {transform: translateY(-4rem);}
+    66%, 88% {transform: translateY(-8rem)}
+    100% {transform: translateY(-11rem);}
+}
+@keyframes rolling {
+    to {
+        transform: translateX(-106px);
+    }
+}
+@keyframes waving {
+    0%, 22% { transform: scale(1);}
+    55%, 90% {transform: rotate(10deg) scale(1.05);}
+    100% {transform:  scale(1);}
+}
+@keyframes waving2 {
+    0%, 22% { transform: scale(1);}
+    55%, 90% {transform: rotate(10deg) scale(1.1);}
+    100% {transform:  scale(1);}
+}
+.rolling {
+    background-color: rgba(11, 1, 83, 0.267);
+    gap: 5rem;
+    animation: rolling 10s linear infinite;
+    img {
+        width: 100%;
+        height: 96px;
+        object-fit: cover;
+    }
+    p {
+        color: rgb(142, 138, 175);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 1.4rem;
+    }
+}
+.contain-faixa2 {
+    margin-top: 10rem;
+    transform: rotate(5deg);
+    background-color: rgb(23, 22, 29);
+}
+.contain-faixa3{
+    margin-right: -10rem;
+    margin-left: -20rem;
+    margin-top: -4.8rem;
+    transform: rotate(-5deg);
+    background-color: rgb(31, 30, 39);
+}
+.stripes {
+    overflow: hidden;
+}
+.stripesx {
+    margin-top: -16rem;
+    margin-bottom: -12rem;
+    height: 400px;
+    overflow: hidden;
+}
+
