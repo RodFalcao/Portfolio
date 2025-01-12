@@ -46,6 +46,18 @@
     --shadow-color: #63d8ff13;
 
 }
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #121214;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #3437e9;
+  }
+
 
 html {
     
