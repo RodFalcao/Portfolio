@@ -1,0 +1,10 @@
+#guide {
+    padding-top: 20rem;
+
+    .banner {
+        margin-top: -5rem;
+        width: 380px;
+        animation: rolling 10s infinite ;
+    }
+
+}
