@@ -1,0 +1,130 @@
+@import url(style/animations.css);
+@import url(style/mobile.css);
+@import url(style/nav.css);
+@import url(style/landing.css);
+@import url(style/utility.css);
+@import url(style/guide.css);
+@import url(style/linktree.css);
+@import url(style/minecraft.css);
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bg: #111115;
+
+    --dark-glass: rgba(17, 16, 19, 0.611)16;
+    --light-glass: #0c0c0e68;
+
+    --material-a: #101013;
+    --material-b: rgb(18, 18, 20);
+    --material-c: #eeebffe3;
+    --material-d: #0d0d0f;
+    --material-e: rgb(242, 241, 252);
+    --material-f: #161622;
+    --material-g: #101013;
+
+    --stroke-a: #242326;
+    --stroke-b: #262529;
+    --stroke-f: #1a1044;
+
+    --txt-a: #dadaeb;
+    --txt-b: #F9F6FF;
+    --txt-c: #58586b;
+
+    --txt-d: #68e3ff;
+    --txt-e: #393942;
+
+    --txt-f: #272730;
+    --txt-g: #2d2c36;
+    --txt-h: #383842;
+
+    --hilight: #4e41ff;
+    --strong: #3a31b8;
+
+    --shadow-color: #63d8ff13;
+
+}
+
+html {
+    
+    h1 {
+        font-family: "Jersey 15", serif;
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-family: "Jersey 15", serif;
+        font-size: 1.8rem;
+
+    }
+
+    h3 {
+        font-family: "Jersey 15", serif;
+        font-size: 1.6rem;
+
+    }
+
+    p {
+        font-family: "Jersey 15", serif;
+        font-size: 1.4rem;
+    }
+
+
+    .bg-01 {
+        background-color: var(--material-a);
+    }
+    .bg-02 {
+        background-color: var(--material-b);
+    }
+    .material-d {
+        background-color: var(--material-d);
+    }
+    .bg-03 {
+        background-image: url(style/assets/background/bg0.png);
+        background-size: cover;
+    }
+    .bg-04 {
+        background-image: url(style/assets/background/image\ 1.svg);
+        background-size: cover;
+    }
+    .bg-05 {
+        background-image: url(style/assets/background/minecraft.png);
+        background-size: cover;
+    }
+}
+main {
+    h1 {
+        font-weight: 500;
+        color: var(--txt-a);
+    }
+    h2 {
+        color: var(--txt-b);
+    }
+    h3,p  {
+        font-weight: 400;
+        color: var(--txt-c);
+    }
+}
+.footer-a {
+    padding: 2rem;
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--txt-a);
+    }
+    h2,p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: var(--txt-c);
+    }
+    .box-ft {
+        cursor: pointer;
+    }
+    a {
+        color: var(--hilight);
+        border-bottom: 1px solid var(--hilight);
+    }
+
+}
