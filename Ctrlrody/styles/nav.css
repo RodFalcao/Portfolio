@@ -1,0 +1,44 @@
+
+nav {
+    font-family: "Baloo 2", sans-serif;
+    a{
+        color: white;
+        margin: 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+        transition: 0.5s;
+    }
+    a:hover {
+        color:  rgb(62, 65, 255);
+        border-bottom: 1px solid  rgb(62, 65, 255);
+    }
+    button {
+        color: white;
+        margin: 1rem;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+    button:hover {
+        color:rgb(62, 65, 255);;
+        border-bottom: 1px solid  rgb(62, 65, 255);
+    }
+    .nav-btn {
+        img {
+            width: 40px;
+        }
+    }
+    .nav-btn:hover {
+        img {
+            transition: 0.5s;
+        }
+    }
+    img {
+    transition: 0.5s;}
+    img:hover {
+        transform: rotate(20deg);
+    }
+    .btn-selected {
+        color:  rgb(62, 65, 255);
+        border-bottom: 1px solid  rgb(62, 65, 255);
+    }
+
+}
