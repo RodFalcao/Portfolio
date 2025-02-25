@@ -1,0 +1,40 @@
+#create-post {
+    background-color: var(--glass-d);
+    padding: 1rem;
+    margin-top: 2.5rem;
+    input {
+        background-color: var(--glass-d);
+        border-radius: 1rem;
+        height: 40px;
+        padding: .8rem;
+        color: var(--txt-a);
+    }
+    fieldset {
+        color: var(--txt-c);
+    }
+    textarea {
+        background-color: var(--glass-d);
+        border-radius: 1rem;
+        padding: .8rem;
+        height: 40px;
+        width: 300px;
+        color: var(--txt-a);
+    }
+    select {
+        background-color: var(--glass-d);
+        border-radius: 1rem;
+        padding: .8rem;
+        width: 100%;
+        height: 40px;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+#posts {
+    li {
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--glass-d);
+    }
+}

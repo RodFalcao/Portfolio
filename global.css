@@ -1,0 +1,165 @@
+@import url(styles/nav.css);
+@import url(styles/landing.css);
+@import url(styles/animations.css);
+@import url(styles/utility.css);
+@import url(styles/buttons.css);
+@import url(styles/mobile.css);
+@import url(styles/forms.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #101022;
+
+    --material-a: #14141b;
+    --stroke-a: #121214;
+
+    --material-b: #18181B;
+    --stroke-b: #1f1f25;
+
+    --material-c: #0b0b0e;
+
+    --stroke-c: #c2c2d154;
+    --stroke-d: #0c0c0f;
+    --stroke-e: #080808c0;
+
+    --btn-bg: #17171aa2;
+    --btn-stroke: #242428;
+    --btn-hover: #1A1A1D;
+    --btn-hilight: #446fff;
+
+    --brand-color: #4e41ff;
+    --tag-color: #FF6464;
+
+    --txt-a: #F4F3FF;
+    --txt-b: #DDDDEA;
+    --txt-c: #656577;
+    --txt-glow: #446fff;
+
+    --warn-color: #00ffff60;
+    --txt-warn: #ffffffd2;
+    --icon-color: #F4F3FF;
+
+    --glass-a: #14141b2c;
+    --glass-b: #1818253b;
+    --glass-c: #14143675;
+    --glass-d: #1a1a2588;
+    --glass-e: #17171b88;
+}
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #121214a2;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #5456ff;
+  }
+
+
+
+
+html {
+        background-color: var(--bg);
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: var(--txt-a);
+    }
+    h2 {
+        font-size: 1.3rem;
+        color: var(--txt-b);
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--txt-b);
+    }
+    h4 {
+        font-size: 1rem;
+        color: var(--txt-b);   
+    }
+    p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--txt-c); 
+    }
+}
+.font-cool {
+    font-family: 'superhelio _regular', sans-serif;
+}
+.bg-01 {
+    background-size: cover;
+   background-image: url(assets/backgrounds/bg1.png);
+}
+.bg-02 {
+    background-size: cover;
+   background-image: url(assets/backgrounds/bg2.png);
+}
+.bg-03 {
+    background-size: cover;
+   background-image: url(assets/backgrounds/bg4.png);
+}
+.bg-04 {
+    background-size: cover;
+    background-image: url(assets/backgrounds/3496333-2524931034.jpg);
+}
+.bg-05 {
+    background-size: cover;
+    background-image: url(assets/backgrounds/ctrltree.gif);
+}
+.bg-06 {
+    background-color: var(--material-c);
+}
+.bg-07 {
+    background-size: cover;
+    background-image: url(assets/backgrounds/photo-1509023464722-18d996393ca8.jpeg);
+}
+.footer-a {
+    padding: 2rem;
+    h1 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--txt-a);
+    }
+    h2,p {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--txt-c);
+    }
+    .box-ft {
+        cursor: pointer;
+    }
+    a {
+        color: var(--hilight);
+        border-bottom: 1px solid var(--hilight);
+    }
+
+}
+.footer-b {
+    font-family: 'superhelio _regular', sans-serif;
+    padding: 2rem;
+    h1 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--txt-a);
+    }
+    h2,p {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--txt-c);
+    }
+    .box-ft {
+        cursor: pointer;
+    }
+    a {
+        color: var(--hilight);
+        border-bottom: 1px solid var(--hilight);
+    }
+
+}

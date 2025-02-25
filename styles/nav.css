@@ -1,0 +1,110 @@
+nav {
+    .nav-btn {
+        display: flex;
+        align-items: center;
+        color: var(--txt-a);
+        transition: 0.3s;
+        height: 40px;
+        padding: 1rem;
+        margin: .4rem .4rem 0rem .0rem;
+        border-radius: 1rem;
+        img {
+            margin-right: 5px;
+            width: 20px;
+        }
+    }
+    .nav-btn:hover {
+        background-color: var(--txt-glow);
+    }
+    .separador {
+        background-color: var(--stroke-b);
+        height: 1px;
+        width: 90%;
+    }
+}
+#nav-a {
+    font-family: "Baloo 2", serif;
+    width: 40%;
+    padding: .2rem;
+    background-color: var(--glass-a);
+    .logo {
+        font-size: 1.2rem;
+
+        color: var(--txt-a);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        transition: 0.3s;
+        img {
+            transition: 0.3s;
+            width: 35px;
+        }
+    }
+    .nav-btn-2 {
+        display: flex;
+        align-items: center;
+        color: var(--txt-a);
+        transition: 0.3s;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+        img {
+            margin-right: 5px;
+            width: 20px;
+        }
+    }
+    .nav-btn-2:hover {
+        color: var(--txt-glow);
+       border-bottom: 1px solid var(--txt-glow);
+    }
+    .logo:hover {
+        img{
+            transform: rotate(30deg) scale(1.08);
+        }
+    }
+}
+#nav-b {
+
+    font-family: 'superhelio _regular', sans-serif;
+    padding: .2rem;
+    width: 40%;
+    background-color: var(--glass-a);
+    nav {
+        border: 1px solid var(--stroke-c);
+    }
+    .logo {
+        font-size:3rem;
+        font-family: 'HigherPixels', sans-serif;
+        color: var(--txt-a);
+        display: flex;
+        align-items: center;
+        transition: 0.3s;
+        img {
+            transition: 0.3s;
+            width: 35px;
+        }
+    }
+    .nav-btn-2 {
+        display: flex;
+        align-items: center;
+        color: var(--txt-c);
+        transition: 0.3s;
+        img {
+            margin-right: 5px;
+            width: 20px;
+        }
+    }
+    .nav-btn-2:hover {
+        color: var(--txt-a);
+    }
+    .selected {
+        color: var(--brand-color);
+    }	
+    .logo:hover {
+        img{
+
+            transform: rotate(30deg) scale(1.08);
+        }
+    }
+    .bg-01 {
+        background-color: var(--glass-b);
+    }
+}
