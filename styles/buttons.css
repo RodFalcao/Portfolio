@@ -1,0 +1,116 @@
+.btn {
+    padding: .6rem 1rem;
+    border-radius: .5rem;
+    color: var(--txt-c);
+    background-color: var(--glass-b);
+    transition: 0.3s;
+}
+.btn-a{
+    padding: .6rem 1rem;
+    border-radius: .8rem;
+    color: var(--btn-hilight);
+    border: 1px solid var(--btn-hilight); 
+    transition: 0.3s;
+}
+.btn-a:hover{
+    color: var(--txt-a);
+    padding: .6rem 2rem;
+    background-color: var(--btn-hilight); 
+    box-shadow: 5px 4px 50px rgba(64, 50, 255, 0.479);
+
+}
+.btn-b{
+    padding: .6rem 1rem;
+    border-radius: .8rem;
+    color: var(--txt-a);
+    background-color: var(--btn-hilight); 
+    box-shadow: 5px 4px 50px rgba(64, 50, 255, 0.479);
+    transition: 0.3s;
+}
+.btn-b:hover{
+    color: var(--txt-a);
+    padding: .6rem 2rem;
+    background-color: var(--btn-hilight); 
+    box-shadow: 5px 4px 50px rgba(64, 50, 255, 0.479);
+
+}
+.btn-d{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 4rem;
+    width: 250px;
+    border-radius: .8rem;
+    color: var(--btn-hilight);
+    border: 1px solid var(--btn-hilight); 
+    transition: 0.3s;
+}
+.btn-d:hover{
+    color: var(--txt-a);
+    width: 300px;
+    background-color: var(--btn-hilight); 
+    box-shadow: 5px 4px 50px rgba(64, 50, 255, 0.479);
+
+}
+.btn-e{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 2.5rem;
+    width: 150px;
+    color: var(--txt-a);
+    border: 1px solid var(--stroke-c);
+    transition: 0.3s;
+}
+.btn-e:hover{
+    color: var(--txt-c);
+    border: 1px solid var( --txt-a); 
+    width: 180px;
+    background-color: var(--txt-a); 
+    box-shadow: 5px 4px 50px rgba(250, 249, 255, 0.479);
+
+}
+.btn-f{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 2.5rem;
+    width: 150px;
+    background-color: var(--txt-a); 
+    color: var(--txt-c);
+    border: 1px solid var(--stroke-c);
+    transition: 0.3s;
+}
+.btn-f:hover{
+    color: var(--txt-c);
+    border: 1px solid var( --txt-a); 
+    width: 180px;
+    background-color: var(--txt-a); 
+    box-shadow: 5px 4px 50px rgba(250, 249, 255, 0.479);
+
+}
+.btn:hover {
+    color: var(--txt-a);
+    padding: .6rem 2rem;
+    background-color: var(--btn-hilight); 
+    box-shadow: 5px 4px 50px rgba(64, 50, 255, 0.479);
+}
+.card {
+    width: 400px;
+
+    img {
+        margin-right: .8rem;
+
+    }
+}
+.btn-c {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    color: var(--btn-hilight);    color: var(--btn-hilight);
+    transition: 0.3s;
+}
+.btn-c:hover {
+    color: var(--txt-a);
+
+}

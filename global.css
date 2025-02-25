@@ -1,133 +1,156 @@
-@import url(style/animations.css);
-@import url(style/mobile.css);
-@import url(style/nav.css);
-@import url(style/landing.css);
-@import url(style/utility.css);
-@import url(style/guide.css);
-@import url(style/linktree.css);
-@import url(style/minecraft.css);
+@import url(styles/nav.css);
+@import url(styles/landing.css);
+@import url(styles/animations.css);
+@import url(styles/utility.css);
+@import url(styles/buttons.css);
+@import url(styles/mobile.css);
+@import url(styles/forms.css);
+
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 :root {
-    --bg: #111115;
+    --bg: #101022;
 
-    --dark-glass: rgba(17, 16, 19, 0.611);
-    --light-glass: #0c0c0e68;
+    --material-a: #14141b;
+    --stroke-a: #121214;
 
-    --material-a: #101013;
-    --material-b: rgb(18, 18, 20);
-    --material-c: #eeebffe3;
-    --material-d: #0d0d0f;
-    --material-e: rgb(242, 241, 252);
-    --material-f: #161622;
-    --material-g: #101013;
+    --material-b: #18181B;
+    --stroke-b: #1f1f25;
 
-    --stroke-a: #242326;
-    --stroke-b: #262529;
-    --stroke-f: #1a1044;
+    --material-c: #0b0b0e;
 
-    --txt-a: #dadaeb;
-    --txt-b: #F9F6FF;
-    --txt-c: #58586b;
+    --stroke-c: #c2c2d154;
+    --stroke-d: #0c0c0f;
+    --stroke-e: #080808c0;
 
-    --txt-d: #68e3ff;
-    --txt-e: #393942;
+    --btn-bg: #17171aa2;
+    --btn-stroke: #242428;
+    --btn-hover: #1A1A1D;
+    --btn-hilight: #446fff;
 
-    --txt-f: #272730;
-    --txt-g: #2d2c36;
-    --txt-h: #383842;
+    --brand-color: #4e41ff;
+    --tag-color: #FF6464;
 
-    --hilight: #4e41ff;
-    --strong: #3a31b8;
+    --txt-a: #F4F3FF;
+    --txt-b: #DDDDEA;
+    --txt-c: #656577;
+    --txt-glow: #446fff;
 
-    --shadow-color: #63d8ff13;
+    --warn-color: #00ffff60;
+    --txt-warn: #ffffffd2;
+    --icon-color: #F4F3FF;
 
+    --glass-a: #14141b2c;
+    --glass-b: #1818253b;
+    --glass-c: #14143675;
+    --glass-d: #1a1a2588;
+    --glass-e: #17171b88;
 }
 ::-webkit-scrollbar {
     width: 4px;
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #121214;
+    background-color: #121214a2;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #3437e9;
+    background-color: #5456ff;
   }
 
 
+
+
 html {
-    
+        background-color: var(--bg);
     h1 {
-        font-family: "Jersey 15", serif;
-        font-size: 2.4rem;
-    }
-
-    h2 {
-        font-family: "Jersey 15", serif;
-        font-size: 1.8rem;
-
-    }
-
-    h3 {
-        font-family: "Jersey 15", serif;
-        font-size: 1.6rem;
-
-    }
-
-    p {
-        font-family: "Jersey 15", serif;
-        font-size: 1.4rem;
-    }
-
-
-    .bg-01 {
-        background-color: var(--material-a);
-    }
-    .bg-02 {
-        background-color: var(--material-b);
-    }
-    .material-d {
-        background-color: var(--material-d);
-    }
-    .bg-03 {
-        background-image: url(style/assets/background/bg0.png);
-        background-size: cover;
-    }
-    .bg-04 {
-        background-image: url(style/assets/background/image\ 1.svg);
-        background-size: cover;
-    }
-    .bg-05 {
-        background-image: url(style/assets/background/minecraft.png);
-        background-size: cover;
-    }
-}
-main {
-    h1 {
+        font-size: 2.5rem;
         font-weight: 500;
         color: var(--txt-a);
     }
     h2 {
+        font-size: 1.3rem;
         color: var(--txt-b);
     }
-    h3,p  {
+    h3 {
+        font-size: 1.5rem;
         font-weight: 400;
-        color: var(--txt-c);
+        color: var(--txt-b);
     }
+    h4 {
+        font-size: 1rem;
+        color: var(--txt-b);   
+    }
+    p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--txt-c); 
+    }
+}
+.font-cool {
+    font-family: 'superhelio _regular', sans-serif;
+}
+.bg-01 {
+    background-size: cover;
+   background-image: url(assets/backgrounds/bg1.png);
+}
+.bg-02 {
+    background-size: cover;
+   background-image: url(assets/backgrounds/bg2.png);
+}
+.bg-03 {
+    background-size: cover;
+   background-image: url(assets/backgrounds/bg4.png);
+}
+.bg-04 {
+    background-size: cover;
+    background-image: url(assets/backgrounds/3496333-2524931034.jpg);
+}
+.bg-05 {
+    background-size: cover;
+    background-image: url(assets/backgrounds/ctrltree.gif);
+}
+.bg-06 {
+    background-color: var(--material-c);
+}
+.bg-07 {
+    background-size: cover;
+    background-image: url(assets/backgrounds/photo-1509023464722-18d996393ca8.jpeg);
 }
 .footer-a {
     padding: 2rem;
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         font-weight: 500;
         color: var(--txt-a);
     }
     h2,p {
-        font-size: 1.4rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--txt-c);
+    }
+    .box-ft {
+        cursor: pointer;
+    }
+    a {
+        color: var(--hilight);
+        border-bottom: 1px solid var(--hilight);
+    }
+
+}
+.footer-b {
+    font-family: 'superhelio _regular', sans-serif;
+    padding: 2rem;
+    h1 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--txt-a);
+    }
+    h2,p {
+        font-size: 1rem;
         font-weight: 500;
         color: var(--txt-c);
     }
